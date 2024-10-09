@@ -45,7 +45,7 @@ export default function MeTabsLanding() {
 
   const howToUseSteps = [
     { title: "Download", description: "Download the Me-Tabs zip file from our website." },
-    { title: "Unzip & Load", description: "Unzip the file and load it as an unpacked extension in Chrome." },
+    { title: "Unzip & Load", description: "Unzip the file and load it as an unpacked extension in Chrome. To load the extension, go to chrome://extensions/ in Chrome, enable Developer mode, and click Load unpacked. Then, select the unzip folder, then the extension will appear in your toolbar." },
     { title: "Start Using", description: "Click on the Me-Tabs icon in your browser to start managing your tabs!" },
   ]
 
@@ -123,7 +123,7 @@ export default function MeTabsLanding() {
                 </p>
               </div>
               <div className="space-x-4">
-                <Link href={'https://github.com/me50/Intrepid-penguin/archive/refs/heads/cs50/problems/2022/python/playback.zip'}>
+                <Link href={'https://github.com/Intrepid-penguin/Me-tabs-exe/archive/refs/heads/main.zip'}>
                   <Button className="inline-flex items-center justify-center">
                     Download Me-Tabs
                     <Download className="ml-2 h-4 w-4" />
