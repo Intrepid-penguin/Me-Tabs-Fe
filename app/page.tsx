@@ -156,17 +156,12 @@ export default function MeTabsLanding() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">See Me-Tabs in Action</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">See Me-Tabsin Action</h2>
             <div className="aspect-video rounded-xl overflow-hidden">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="Me-Tabs Demo"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <video className="w-full h-full bg-red-600" autoPlay loop muted>
+                <source src="https://res.cloudinary.com/dh9zsffcy/video/upload/v1728519617/screen-capture_kfkdcz.mkv" type="video/webm" />
+              </video>
+              fffffqwertyrewqwertyrewqertewrtyutrewrty
             </div>
           </div>
         </section>
